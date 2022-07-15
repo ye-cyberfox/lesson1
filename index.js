@@ -12,7 +12,7 @@ let city = {
     name: 'Zaporizhzhya',
     country: 'Ukraine',
     population: 650_000,
-    football_stadium: true,
+    footballStadium: true,
 };
 console.log(city);
 
@@ -49,8 +49,7 @@ let speedOfFirst = 95,
     speedOfSecond = 114,
     time = 2;
 
-let amountSpeed = speedOfFirst + speedOfSecond,
-    result = time * amountSpeed;
+let result = time * (speedOfFirst + speedOfSecond);
 console.log(result);
 
 /* 
@@ -70,13 +69,13 @@ const randomNumber = Math.floor(Math.random() * 100);
 console.log(randomNumber);
 
 if (randomNumber < 20) {
-    console.log('randomNumber less than 20')}
-else if (randomNumber > 50) {
-    console.log('randomNumber more than 50')}
-else {
+    console.log('randomNumber less than 20')
+} else if (randomNumber > 50) {
+    console.log('randomNumber more than 50')
+} else {
     console.log('randomNumber more than 20 and randomNumber less than 50')
 }
-        
+         
 /* 
     Задание 5:
     Условную конструкцию из задания 4, перепишите с помощью Switch Case
@@ -91,8 +90,7 @@ switch (true) {
         console.log('randomNumber more than 50')
         break;
     default:
-        console.log('randomNumber more than 20 and randomNumber less than 50')
-   
+        console.log('randomNumber more than 20 and randomNumber less than 50') 
 }
    
 
